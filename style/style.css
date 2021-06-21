@@ -1,0 +1,547 @@
+:root {
+  --preto: #252525;
+  --azul: #0085ff;
+  --azul-claro: #85c3ff;
+  --cinza: #eeeeee;
+  --branco: #ffffff;
+}
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 1em;
+}
+.container-fluid {
+  margin: 0px;
+  padding: 0px;
+}
+/******************* PARTICULAS ******************/
+
+#particles-js {
+  height: 50%;
+  margin: 0px;
+  padding: 0px;
+}
+
+/************************* Configurações do background - Nav ***********************************/
+.navbar {
+  margin: 0px;
+  padding: 0px;
+  background: rgba(255, 255, 255, 0.1);
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  z-index: 1;
+}
+.logo {
+  letter-spacing: 3px;
+}
+.nav-back {
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 800px;
+}
+.container {
+  margin: 0px;
+  padding: 0px;
+}
+
+.navbar-back {
+  position: relative;
+  background-position: bottom center;
+}
+/****************************** Configuração nav *************************************/
+.container-descricao-img {
+  display: flex;
+  align-items: flex-end;
+  margin: -350px auto 0px auto;
+}
+
+.container-descricao-nav,
+h5 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  color: #fff;
+  margin: auto;
+  padding: 20px;
+  font-size: 1.3em;
+}
+.botao-whats {
+  border-radius: 10px;
+  display: block;
+  width: 400px;
+  background-image: linear-gradient(45deg, rgb(11, 170, 32), #4ae491, #49aa75);
+  color: #fff;
+  font-size: 1.2em;
+  padding: 5px;
+  margin: 50px auto 0px auto;
+}
+a:hover {
+  text-decoration: none;
+  color: #fff;
+}
+.botao-whats:hover:nth-child(1) {
+  color: #d6f5e1;
+  box-shadow: 0 0 30px #25d366;
+}
+/****************************** Configuração nav *************************************/
+
+.img-fluid {
+  display: flex;
+  margin: 50px auto 0px auto;
+  width: 80%;
+  height: 90vh;
+}
+
+#hero,
+.animated {
+  animation: up-down 1s ease-in-out infinite alternate-reverse both;
+}
+
+@-webkit-keyframes up-down {
+  from {
+    transform: translateY(10px);
+  }
+  to {
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes up-down {
+  from {
+    transform: translateY(10px);
+  }
+  to {
+    transform: translateY(-10px);
+  }
+}
+
+/****************************** Configurações link da nav Float Shadow ******************************/
+
+.nav-link {
+  color: #fff;
+  text-align: center;
+  margin: 5px;
+  border-radius: 30px;
+  border: 1px solid transparent;
+  transition: 0.5s;
+  font-weight: bolder;
+}
+.nav-link:hover {
+  text-decoration: none;
+  background-color: transparent;
+  color: var(--branco);
+  border-color: var(--branco);
+  color: #fff;
+}
+.nav-link {
+  vertical-align: middle;
+  transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  position: relative;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+.nav-link:before {
+  pointer-events: none;
+  position: absolute;
+  z-index: -1;
+  content: "";
+  top: 100%;
+  left: 5%;
+  height: 10px;
+  width: 90%;
+  opacity: 0;
+  background: -webkit-radial-gradient(
+    center,
+    ellipse,
+    rgb(255, 255, 255) 0%,
+    rgba(0, 0, 0, 0) 50%
+  );
+  background: radial-gradient(
+    ellipse at center,
+    rgb(255, 255, 255) 0%,
+    rgba(246, 246, 246, 0) 80%
+  );
+  /* W3C */
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform, opacity;
+  transition-property: transform, opacity;
+}
+.nav-link:hover,
+.nav-link:focus,
+.nav-link:active {
+  -webkit-transform: translateY(-5px);
+  transform: translateY(-5px);
+  /* move the element up by 5px */
+}
+.nav-link:hover:before,
+.nav-link:focus:before,
+.nav-link:active:before {
+  opacity: 1;
+  -webkit-transform: translateY(5px);
+  transform: translateY(5px);
+  /* move the element down by 5px (it will stay in place because it's attached to the element that also moves up 5px) */
+}
+
+/******************************** Configuração do pessoal ********************************/
+.secao-profissional {
+  text-align: center;
+  padding: 100px;
+  color: #fff;
+  background: linear-gradient(
+    360deg,
+    rgba(251, 47, 149),
+    rgba(255, 255, 255, 2)
+  );
+}
+.secao-pessoal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 10px;
+  margin: 0px;
+  padding: 0px 100px 0px 100px;
+}
+.secao-pessoal > .paragrafo-hobbie {
+  text-align: justify;
+  margin-left: 7;
+  padding: 15px;
+}
+
+.container-img-perfil {
+  display: flex;
+  justify-content: center;
+    width: 50vh;
+  margin: 20px;
+  padding: 5px;
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.616);
+  background: rgba(#000000,0.37);
+  backdrop-filter: blur (2px);
+  filter: drop-shadow(0 0 15px #252525);
+}
+
+.img-perfil {
+  image-rendering: initial;
+  border-radius: 15px;
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+/****************************** Configuração secao hobbies *************************/
+.secao-hobbies {
+  padding: 100px;
+  text-align: center;
+  color: #fff;
+  width: 100%;
+}
+.secao-hobbies-descricao {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hobbie1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 100px;
+  margin: 10px;
+}
+.secao-icon {
+  font-size: 3em;
+}
+.secao-hobbies-descricao > .paragrafo-hobbie {
+  margin-left: 50px;
+  border-radius: 10px;
+  border: 1px solid rgb(255, 255, 255, 0.8);
+  background: rgb(255, 255, 255, 0.2);
+  backdrop-filter: blur (2px);
+  filter: drop-shadow(0 0 8px #252525);
+}
+
+.botao-curriculum {
+  padding: 10px;
+  color: #fff;
+  font-size: 1.2em;
+  border-radius: 10px;
+  background-image: linear-gradient(45deg, rgb(34, 31, 248), #0085ff, #53acff);
+}
+.botao-curriculum:hover {
+  text-decoration: none;
+  color: #fff;
+}
+.botao-curriculum:nth-child(2) {
+  color: #d6f5e1;
+  box-shadow: 0 0 30px #4c3aecd3;
+}
+/********************** Tecnologias e conhecimentos *********************************/
+.container-tecnologia {
+  padding: 5px;
+  text-align: center;
+  border-radius: 10px;
+  padding: 100px;
+
+  background: linear-gradient(
+    360deg,
+    rgba(50, 47, 251, 0.883),
+    rgba(255, 255, 255, 2)
+  );
+}
+.container-descricao {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container-paragrafo {
+  margin-right: 50px;
+  padding: 50px;
+}
+.container-icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  justify-content: space-between;
+  filter: drop-shadow(0 0 5px #252525);
+}
+.icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 100px;
+  margin: 10px;
+}
+.icon-tec {
+  font-size: 4.5em;
+}
+
+.img-tec {
+  width: 70px;
+  height: 90px;
+  object-fit: cover;
+}
+.fa-html5 {
+  color: rgb(255, 186, 58);
+}
+.fa-css3-alt {
+  color: #0085ff;
+}
+.fa-bootstrap {
+  color: blueviolet;
+}
+.fa-database {
+  color: rgba(255, 64, 64, 0.972);
+}
+.fa-git-alt {
+  color: rgb(250, 90, 42);
+}
+.fa-github {
+  color: #252525;
+  border-radius: 10px;
+  padding: 5px;
+}
+/********************** Configuração Tecnologia **********************/
+h5 {
+  color: #fff;
+  text-align: justify;
+  padding-left: 0px;
+}
+.container-videos:hover {
+  transform: scale(1.1);
+  transition: transform 500ms;
+}
+
+.container-portifolio {
+  padding: 50px;
+  text-align: center;
+  color: #ffffff;
+}
+.container-port {
+  display: flex;
+  border: 1px solid green;
+  margin: 10px;
+  height: 300px;
+}
+.descricao-port {
+  text-align: justify;
+  padding: 10px;
+  margin: 100px 0px -20px 0px;
+}
+.container-videos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  overflow: hidden;
+}
+.videos-port {
+  padding: 10px;
+  border-radius: 20px;
+  width: 100%;
+  height: 100%;
+  filter: drop-shadow(0 0 8px #252525);
+}
+/********************** Configuração Rodapé **********************/
+#canvas1 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(#25364f, #4d71a5, #9bc4ff);
+}
+footer {
+  background-image: url(/img/footer-bg1.jpg);
+  height: 850px;
+  margin-top: 150px;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.container-rodape {
+  width: 1000px;
+  height: 600px;
+  background-image: url(/img/header-hero.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  filter: drop-shadow(0 0 8px #252525);
+}
+.container-contato {
+  background-color: rgba(246, 242, 242, 0.979);
+  text-align: center;
+  width: 740px;
+  height: 450px;
+  margin: 37px auto 0px auto;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.contato1,
+.contato2,
+.contato3 {
+  color: #fff;
+  text-decoration: none;
+}
+.contato1,
+.contato2,
+.contato3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden;
+  height: 15%;
+}
+.container-redesociais {
+  border: 2px solid blue;
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  margin-top: 50px;
+  font-size: 2.5em;
+}
+.todos-direitos {
+  border-top: 2px solid #fff;
+  color: #fff;
+  padding: 30px;
+  width: 80%;
+  text-align: center;
+
+  margin-top: 40px;
+}
+/********************** Configuração Reaproveitamento *********************/
+
+.container-videos,
+.contato1,
+.contato2,
+.contato3,
+.container-redesociais {
+  width: auto;
+  margin: 20px;
+  padding: 5px;
+  border-radius: 10px;
+  border: 1px solid rgb(255, 255, 255, 0.8);
+  background: rgb(255, 255, 255, 0.2);
+  backdrop-filter: blur (2px);
+  filter: drop-shadow(0 0 8px #252525);
+}
+.container-contato,
+.container-portifolio,
+.secao-hobbies {
+  filter: drop-shadow(0 0 8px #252525);
+  background-image: linear-gradient(25deg, #8e00fd, #b84afe, #0085ff, #85c3ff);
+}
+.fa-facebook {
+  padding: 5px;
+  color: #282de4;
+  border-radius: 10px;
+  background-image: linear-gradient(25deg, #282de4, #6371ea, #7db0ee, #88f0f0);
+  box-shadow: 0px 3px 10px rgba(194, 193, 193, 0.25);
+}
+.fa-linkedin {
+  padding: 5px;
+  color: #333af6;
+  border-radius: 10px;
+  background-image: linear-gradient(25deg, #453de6, #5c7ad7, #56b1c6, #05e8b2);
+  box-shadow: 0px 3px 10px rgba(194, 193, 193, 0.25);
+}
+.exclusivo {
+  padding: 5px;
+  color: #141414;
+  border-radius: 10px;
+  background-image: linear-gradient(45deg, #efeef5, #8d8f94, #2f2f2f, #252525);
+  box-shadow: 0px 3px 10px rgba(194, 193, 193, 0.25);
+}
+.fa-instagram {
+  padding: 5px;
+  display: inline-block;
+  border-radius: 10px;
+  color: #fff;
+  vertical-align: middle;
+  background: #d6249f;
+  background: radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+  box-shadow: 0px 3px 10px rgba(194, 193, 193, 0.25);
+}
+
+.fa-instagram:hover:nth-child(1) {
+  color: #d6f5e1;
+  box-shadow: 0 0 30px #d6249f;
+}
+.fa-linkedin:hover:nth-child(1) {
+  color: #333af6;
+  box-shadow: 0 0 30px #333af6;
+}
+.fa-facebook:hover:nth-child(1) {
+  color: #282de4;
+  box-shadow: 0 0 30px #333af6;
+}
+.exclusivo:hover:nth-child(1) {
+  color: #141414;
+  box-shadow: 0 0 30px #141414;
+}
