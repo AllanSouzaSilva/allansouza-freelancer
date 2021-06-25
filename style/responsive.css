@@ -1,0 +1,71 @@
+@media (max-width:575px) {
+    body {}
+    .navbar {
+        width: 100%;
+    }
+    .container-fluid {
+        border: 1px solid red;
+        overflow-x: hidden;
+    }
+    .navbar-back {
+        border: 1px solid purple;
+    }
+    .container-descricao-img {
+        border: 1px solid yellow;
+        flex-direction: column-reverse;
+        width: 95%;
+    }
+    .container-descricao-nav {
+        border: 1px solid green;
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+    }
+    .botao-whats {
+        width: 200px;
+    }
+    .img-fluid {
+        width: 65%;
+        height: 65vh;
+        margin-top: -10px;
+    }
+    .img-perfil {
+        image-rendering: initial;
+        border-radius: 15px;
+        height: 100%;
+        width: 80%;
+        object-fit:contain;
+    }
+    
+.secao-hobbies {
+    flex-direction: column;
+    padding: 0px;
+    margin-left: 0px;
+    width: 100%;
+    overflow:hidden ;
+    
+  }
+  .secao-hobbies-descricao 
+  {
+      
+    flex-direction: column;
+    padding: 0px;
+    margin: 0px;
+  }
+  
+.container-icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    filter: drop-shadow(0 0 5px #252525);
+  }
+  
+  .secao-hobbies-descricao>.paragrafo-hobbie {
+  
+  }
+    .container-rodape {
+        display: none;
+    }
+}

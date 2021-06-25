@@ -1,4 +1,4 @@
-//Animação reval
+/*Animação reval
 
 window.sr = ScrollReveal();
 
@@ -84,7 +84,7 @@ sr.reveal(".container-curriculum", {
 });
 
 
-/****************** Curriculum *******************/
+/****************** Curriculum *******************
 function generatePDF() {
     const element =  document.getElementById("botao-curriculum");
     
@@ -93,3 +93,4 @@ function generatePDF() {
     .save();
 
 }
+*/
