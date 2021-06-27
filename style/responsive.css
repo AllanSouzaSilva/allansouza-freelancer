@@ -1,22 +1,17 @@
-@media (max-width:575px) {
-    body {}
+@media (max-width:756px) {
+    /************************  NAV ************************/
     .navbar {
         width: 100%;
     }
     .container-fluid {
-        border: 1px solid red;
+        /* NÃO APAGAR*/
         overflow-x: hidden;
     }
-    .navbar-back {
-        border: 1px solid purple;
-    }
     .container-descricao-img {
-        border: 1px solid yellow;
         flex-direction: column-reverse;
         width: 95%;
     }
     .container-descricao-nav {
-        border: 1px solid green;
         margin: 0px;
         padding: 0px;
         width: 100%;
@@ -29,43 +24,73 @@
         height: 65vh;
         margin-top: -10px;
     }
+    /************************  CONTAINER PESSOAL ************************/
     .img-perfil {
         image-rendering: initial;
         border-radius: 15px;
         height: 100%;
         width: 80%;
-        object-fit:contain;
+        object-fit: contain;
     }
-    
-.secao-hobbies {
-    flex-direction: column;
-    padding: 0px;
-    margin-left: 0px;
-    width: 100%;
-    overflow:hidden ;
-    
+    .secao-pessoal>.paragrafo-hobbie {
+        border-radius: 10px;
+        margin: 10px;
+        border: 1px solid rgb(255, 255, 255, 0.8);
+        background: rgb(255, 255, 255, 0.2);
+        backdrop-filter: blur (2px);
+    }
+    /************************  HOBBIES  ************************/
+    .secao-hobbies {
+        flex-direction: column;
+        padding: 0px;
+        margin-left: 0px;
+        width: 100%;
+        overflow: hidden;
+    }
+    .secao-hobbies-descricao {
+        flex-direction: column;
+        padding: 0px;
+        margin: 0px;
+    }
+    .secao-hobbies-descricao>.paragrafo-hobbie {
+        margin: 10px;
+        padding: 20px;
+        text-align: justify;
+        border-radius: 10px;
+        border: 1px solid rgb(255, 255, 255, 0.8);
+        background: rgb(255, 255, 255, 0.2);
+        backdrop-filter: blur (2px);
+        filter: drop-shadow(0 0 8px #252525);
+    }
+    .container-icon {
+        flex-direction: row-reverse;
+        width: 100%;
+    }
+    /************************  TECNOLOGIAS ************************/
+    .container-tecnologia {
+        margin: 0px;
+        padding: 0px;
+        overflow: hidden;
+    }
+
+    .container-paragrafo {
+        margin: 0px;
+        padding: 20px;
+    }
+    .container-descricao {
+        flex-direction: column;
+        margin: auto;
+        width: 55vh;
+    }
+    .container-icon {
+        align-items: center;
+        padding: 10px;
+        overflow: hidden;
   }
-  .secao-hobbies-descricao 
-  {
-      
-    flex-direction: column;
-    padding: 0px;
-    margin: 0px;
-  }
+    /************************  PORTIFÓLIO ************************/
   
-.container-icon {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    justify-content: center;
-    filter: drop-shadow(0 0 5px #252525);
-  }
-  
-  .secao-hobbies-descricao>.paragrafo-hobbie {
-  
-  }
     .container-rodape {
         display: none;
     }
+  
 }
