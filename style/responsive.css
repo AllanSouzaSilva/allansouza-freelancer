@@ -1,4 +1,4 @@
-@media (max-width:756px) {
+@media (max-width:1024px) {
     /************************  NAV ************************/
     .navbar {
         width: 100%;
@@ -20,7 +20,7 @@
         width: 200px;
     }
     .img-fluid {
-        width: 65%;
+        width: 90%;
         height: 65vh;
         margin-top: -10px;
     }
@@ -34,7 +34,7 @@
     }
     .secao-pessoal>.paragrafo-hobbie {
         border-radius: 10px;
-        margin: 10px;
+        margin: 15px 10px 50px 10px;
         border: 1px solid rgb(255, 255, 255, 0.8);
         background: rgb(255, 255, 255, 0.2);
         backdrop-filter: blur (2px);
@@ -54,7 +54,7 @@
     }
     .secao-hobbies-descricao>.paragrafo-hobbie {
         margin: 10px;
-        padding: 20px;
+        padding: 10px;
         text-align: justify;
         border-radius: 10px;
         border: 1px solid rgb(255, 255, 255, 0.8);
@@ -64,6 +64,7 @@
     }
     .container-icon {
         flex-direction: row-reverse;
+        justify-content: center;
         width: 100%;
     }
     /************************  TECNOLOGIAS ************************/
@@ -72,10 +73,13 @@
         padding: 0px;
         overflow: hidden;
     }
-
     .container-paragrafo {
-        margin: 0px;
-        padding: 20px;
+        padding: 10px;
+        margin: 0px 0px 20px 0px;
+        border-radius: 10px;
+        border: 1px solid rgb(255, 255, 255, 0.8);
+        background: rgb(255, 255, 255, 0.2);
+        backdrop-filter: blur (2px);
     }
     .container-descricao {
         flex-direction: column;
@@ -83,14 +87,49 @@
         width: 55vh;
     }
     .container-icon {
-        align-items: center;
+        margin: 0px 0px 10px 0px;
+        padding: 0px;
+    }
+    .container-icon>.icon {
+        width: 100%;
+        height: 8rem;
+        margin: 5px;
         padding: 10px;
-        overflow: hidden;
-  }
+    }
+    .icon-tec {
+        font-size: 3rem;
+    }
+    .img-tec {
+        padding: 0px;
+        margin: 0px;
+        width: 50px;
+        height: 50px;
+        object-fit: cover;
+    }
     /************************  PORTIFÓLIO ************************/
-  
+    .container-portifolio {
+        padding: 0px;
+        margin: 0px;
+    }
+    .container-port {
+        border: 1px solid yellow;
+        flex-direction: column;
+        margin: 0px;
+        padding: 0px;
+    }
+    .videos-port {
+        margin: 0px;
+        width: 100%;
+        height: 100%;
+    }
+    .container-port {
+        width: 100%;
+        height: 100%;
+    }
+    .container-videos{
+        flex-direction: column-reverse;
+    }
     .container-rodape {
         display: none;
     }
-  
 }
