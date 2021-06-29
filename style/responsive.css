@@ -1,6 +1,7 @@
 @media (max-width:1024px) {
     /************************  NAV ************************/
     .navbar {
+        background: rgba(91, 101, 253, 0.8);
         width: 100%;
     }
     .container-fluid {
@@ -112,7 +113,6 @@
         margin: 0px;
     }
     .container-port {
-        border: 1px solid yellow;
         flex-direction: column;
         margin: 0px;
         padding: 0px;
@@ -126,10 +126,35 @@
         width: 100%;
         height: 100%;
     }
-    .container-videos{
+    .container-videos {
         flex-direction: column-reverse;
     }
+    /************************  PORTIFÓLIO ************************/
     .container-rodape {
+        width: 320px;
+        height: 350px;
+    }
+    .container-contato {
+        width: 240px;
+        height: 140px;
+        margin: 11px auto 0px auto;
+    }
+    .container-redesociais {
+        margin: auto;
+        padding: 10px;
+        width: 100%;
+        height: 50px;
+        font-size: 20px;
+    }
+    .todos-direitos {
+        padding: 10px;
+        width: 80%;
+        margin-top: -40px;
+      }
+    .contato1, .contato2, .contato3 {
+        display: none;
+    }
+    .container-redesociais>p {
         display: none;
     }
 }
