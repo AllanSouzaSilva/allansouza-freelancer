@@ -1,90 +1,87 @@
-/*Animação reval
+/*Animação reval*/
 
 window.sr = ScrollReveal();
 
-sr.reveal(".secao-titulo", {
+sr.reveal(".container-descricao-img", {
   duration: 3000,
   origin: "bottom",
   distance: "-100px",
 });
-sr.reveal(".container-fluid", {
+sr.reveal(".hero-img", {
   duration: 3000,
-  origin: "top",
+  origin: "bottom",
   distance: "-100px",
 });
-sr.reveal(".secao", {
+sr.reveal(".container-img-perfil", {
   duration: 3000,
   origin: "left",
   distance: "400px",
 });
-sr.reveal(".secao-portifolio", {
+sr.reveal(".secao-titulo", {
   duration: 3000,
   origin: "bottom",
   distance: "400px",
 });
-sr.reveal(".navbar-brand", {
+sr.reveal(".paragrafo-hobbie", {
   duration: 3000,
-  origin: "right",
+  origin: "bottom",
   distance: "400px",
 });
-sr.reveal(".grau-conhecimento", {
+sr.reveal(".container-icon", {
+  duration: 3000,
+  origin: "top",
+  distance: "400px",
+});
+sr.reveal(".paragrafo-hobbie", {
   duration: 4000,
-  origin: "bottom",
+  origin: "top",
   distance: "400px",
 });
-sr.reveal(".img-perfil", {
-  duration: 4000,
-  origin: "bottom",
-  distance: "400px",
-});
-sr.reveal(".fa-html5", {
+sr.reveal(".container-paragrafo", {
   duration: 3000,
   origin: "top",
   distance: "400px",
 });
-sr.reveal(".fa-css3-alt", {
+sr.reveal(".container-videos", {
   duration: 3000,
   origin: "top",
   distance: "400px",
 });
-sr.reveal(".fa-bootstrap", {
+sr.reveal(".descricao-por", {
+  duration: 3000,
+  origin: "bottom",
+  distance: "400px",
+});
+sr.reveal(".container-rodape", {
+  duration: 3000,
+  origin: "top",
+  distance: "600px",
+});
+
+sr.reveal(".container-redesociais", {
   duration: 3000,
   origin: "top",
   distance: "400px",
 });
-sr.reveal(".fa-git-alt", {
+
+sr.reveal(".contato1", {
   duration: 3000,
   origin: "bottom",
   distance: "400px",
 });
-sr.reveal(".mov", {
+sr.reveal(".contato2", {
   duration: 3000,
   origin: "bottom",
   distance: "400px",
 });
-sr.reveal(".fa-database", {
+sr.reveal(".contato3", {
   duration: 3000,
-  origin: "bottom",
-  distance: "400px",
-});
-sr.reveal(".img-tamanho", {
-  duration: 3000,
-  origin: "right",
-  distance: "400px",
-});
-sr.reveal(".tamanho-fonte", {
-  duration: 3000,
-  origin: "top",
-  distance: "400px",
-});
-sr.reveal(".container-curriculum", {
-  duration: 4000,
   origin: "bottom",
   distance: "400px",
 });
 
 
-/****************** Curriculum *******************
+/****************** Curriculum *******************/
 function generatePDF() {
     const element =  document.getElementById("botao-curriculum");
     
@@ -93,4 +90,3 @@ function generatePDF() {
     .save();
 
 }
-*/

@@ -45,7 +45,7 @@ p, h1, h2, h4, h5 {
 .navbar {
   margin: 0px;
   padding: 0px;
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(0, 133, 255, 0.3);
   position: fixed;
   display: flex;
   justify-content: space-between;
@@ -215,12 +215,13 @@ a:hover {
 }
 
 /******************************** Configuração do pessoal ********************************/
-
+.secao-titulo{
+  font-family: 'Prociono';
+}
 .secao-profissional {
   text-align: center;
   padding: 100px;
-  color: #fff;
-  background: linear-gradient( 360deg, rgb(47, 152, 251), rgba(255, 255, 255, 2));
+  background: linear-gradient(360deg, rgba(47, 152, 251, 0.835), rgba(255, 255, 255, 2));
 }
 
 .secao-pessoal {
@@ -247,10 +248,11 @@ a:hover {
   margin: 20px;
   padding: 5px;
   border-radius: 10px;
-  border: 1px solid rgba(255, 255, 255, 0.616);
+  border: 1px solid #197be8;
   background: rgba(#000000, 0.37);
   backdrop-filter: blur (2px);
-  filter: drop-shadow(0 0 15px #252525);
+  box-shadow: rgb(22, 22, 27) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -20px, 
+  rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
 
 .img-perfil {
@@ -259,6 +261,7 @@ a:hover {
   height: 100%;
   width: 100%;
   object-fit: contain;
+  filter: drop-shadow(0 0 15px #252525);
 }
 
 /****************************** Configuração secao hobbies *************************/

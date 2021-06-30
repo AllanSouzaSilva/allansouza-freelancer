@@ -1,7 +1,7 @@
 @media (max-width:1024px) {
     /************************  NAV ************************/
     .navbar {
-        background: rgba(91, 101, 253, 0.8);
+        background: rgba(0, 133, 255, 0.5);
         width: 100%;
     }
     .container-fluid {
