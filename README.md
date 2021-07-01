@@ -2,7 +2,7 @@
 
 <!-- título -->
 <h1 align="center">
-  Meu fruto - Site pessoal
+	Freelancer Web
 </h1>
 
 <!-- status -->
@@ -32,44 +32,44 @@
 ---
 <!-- imagens-->
 <h4 align="center">
-  <p>Tela home</p>
-  <img width="100%" alt="Sitehome" title="Home page" src="https://github.com/AllanSouzaSilva/allan-website/blob/main/video/AllanSobre.gif" style="max-width:70%;">
+  <p>Web Single Page - Home</p>
+  <img width="70%" alt="Sitehome" title="Home page" src="https://github.com/AllanSouzaSilva/allan-website/blob/main/video/videoreadme.gif" style="max-width:70%;">
 
 </h4>
 ---
 
-## 📄 Sobre
+## 📄 Sobre 
 
-#### allan-website
-Esse projeot foi desenvolvido para a criação do meu site, com os conhecimentos básicos que eu adquiri diante meus estudos, espero chegar a um  nivel maior de excelencia sobre a minha capacidade. Apesar de ter um foco mais voltado ao back-end, não posso descartar os conhecimentos básico e não menos importante do front-end, pois as tecnológias em si caminhão lado a lado. 
-O projeto é simplório a ideia é trabalhar com flex-box para a criação do layout, e estilizar com o css e as funcionalidades que darão vida ao site, para não ser um site estático, além de implementar o javascript, utilizei o framework bootstrap para ativar a parte de carrosel para chamar a atenção do usuário. 
+### Allan Freelancer
+Projeto criado com o objetivo de chamar atenção de recrutadores e trabalhar como freelancer futuramente, entendendo meu momento e que estou ainda em pleno desenvolvimento diário.
+Esse projeto já citado foi útilizado as seguintes técnologias e recursos, Javascript, Css, Html e Bootstrap, isto com base em conhecimento adquirido em cursos e tutoriais na internet. 
+No projeto em si não obtive nenhuma contribuição externa até pelo fato de conhecer poucas pessoas na área de desenvolvimento de software.
+Más, o fato é que precisei práticar o que estava aprendendo e então tive a ideia de cirar meu própio website disponibilizando meu portifólio e que me agradou bastante.
+Além do single page freelancer também tenho outros projetos desenvolvidos com outras abordagens. 
+Podem verificar no campo repositories aqui no github. 
+É isso, qualquer dúvida estou há disposição! 
 
 ## 🔝 Requisitos
 
-✅ - O software contém uma interface moderna, com muitas informações que para um 
-usuário inexperiente, podendo ficar perdido com tanta informação por tela.
+✅ - Ter um visual atraente e moderno para atrair a atenção do usuário e a facilidade na manipulação
 
-✅ - plataforma Web responsivo sejam 
-autentificados para não haver golpes e fraudes na 
-plataforma.
+✅ - Está composto com o recurso de responsividade, no qual pode ser aberto e manipulado por aparelhos tanto o mobile quanto tablets.
 
-✅ -A empresa exige que os softwares sejam aderentes a 
-LGPD (Lei geral de proteção de dados).
+✅ - As informações que está compostas no site e está divulgadas foi por autorização dos stackholders.
 
-✅ - Necessita que a implementação seja feita na 
-linguagem de programação Html e Css.
+✅ - O site tem que atender as técnicas e ferramentas desenvolvimento web, por isso útilizar a stack front end é fundamental para o produto final.
 
-✅ - Utilizei resposividade com midea query, para disposivos moveis, tablets de 10 poligadas e celulares.
+✅ - Utilizei resposividade com midea query com 100% CSS3, para disposivos moveis, tablets de 6,5 a 10 polegadas e diversos aparelhos acessivél a internet.
 
-✅ - Implementei um carosel utilizando bootstrap com imagens e descritivos para chamar atenção na home.
+✅ - Criar efeitos de background e transição em elementos de imagens e fundos dinâmicos.
 
-✅ - Utilizar componentes para implementar o rodapé, para ter um efeito mais atraente na movimentação do mouse.
+✅ - Os componente do rodapé precisa-se de uma imagem de um computador e em sua tela apresentar os contatos para clientes que desejam aderir os serviços apresentados.
 
-✅ - Utilizar as tags header, nav, main e footer, para uma semantica mais organizada de acordo com o seo.
+✅ - Utilizar as tags semânticas como, header, nav, main e footer, para uma semantica mais organizada de acordo com o seo.
 
-✅ - Implementa um efeito do javascript, scrollveal.
+✅ - Implementar efeitos do javascript, scrollveal.
 
-✅ - Midea queries para responsividade, celulares, tablets e outros.
+✅ - Se posível criar um botão principal que chame a atenção com o objetivo de chegar até o whatsaap particular ou coorporativo.
 
 
 
@@ -87,24 +87,37 @@ Estas são as principais ferramentas utilizadas na construção do projeto:
 
 ## 🚀 Executando o projeto
 
-Antes de qualquer coisa, você precisa ter o [Git](https://git-scm.com)e o [visual studio](https://visualstudio.microsoft.com/pt-br/downloads/) instalado na sua máquina. Feito isso, você pode prosseguir.
+Antes de qualquer coisa, você precisa ter o [GIT](https://git-scm.com) e o [Visual studio code] (https://code.visualstudio.com/download) instalado na sua máquina. Feito isso, você pode prosseguir.
+
+1. Navegar até a pasta através do git here
+2. Vá até a pasta allansouza-freelancer 
+3. Digite o comando code allansouza-freelancer
+4. O projeto abrirá no vs code.
+5. Instale a extenção -> Live Server
+6. Vá até o projeto.
+7. No arquivo -> home.html clique com botão direito e clique em open Live Server.
+
 
 ```bash
+
 # Clone este repositório:
-$ git clone https://github.com/AllanSouzaSilva/allan-website.git
+$ git clone -> https://github.com/AllanSouzaSilva/.git
 
 # Acesse à pasta do projeto:
-alla-website
+allansouza-freelancer
 
 # Execute a aplicação em modo de desenvolvimento:
-clique duas vezes no arquivo index.html
+clique duas vezes no arquivo home.html
+
 ```
-Caso a página não abrir automaticamente, acesse: http://127.0.0.1:5500/index.html
----
+# Caso a página não abrir automáticamente acesse:
+
+# Caso não tenha a extenção no vscode:
+
+--- Vá até o navegador e digite: 127.0.0.1:5501/index.html
 ### 🚀 Milha Extra
 
-Além do que foi pedido, adicionei animações para deixar a aplicação mais agradável e fluida, e também uma página exclusiva para tratativa de erros.
-
+Além do que foi pedido foi feito um deploy grátuito sem fins comerciais no netlify, para outros terem acesso ao projeto 
 ## 📋 Licença
 
  [![NPM](https://img.shields.io/npm/l/react)](https://github.com/AllanSouzaSilva/allan-website/blob/main/LICENSE)

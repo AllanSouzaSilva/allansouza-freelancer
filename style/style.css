@@ -87,7 +87,7 @@ p, h1, h2, h4, h5 {
   margin: -350px auto 0px auto;
 }
 
-.container-descricao-nav, h5 {
+.container-descricao-nav,h5  {
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -237,21 +237,24 @@ a:hover {
 .secao-pessoal>.paragrafo-hobbie {
   text-align: justify;
   margin-left: 7;
+  margin-bottom: 50px;
   padding: 15px;
   color: #191b1be1;
+  box-shadow: rgb(22, 22, 27) 0px 40px 80px -30px, rgba(0, 0, 0, 0.3) 0px 30px 60px -20px, 
+  rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
 
 .container-img-perfil {
   display: flex;
   justify-content: center;
   width: 50vh;
-  margin: 20px;
+  margin-bottom: 50px;
   padding: 5px;
   border-radius: 10px;
   border: 1px solid #197be8;
   background: rgba(#000000, 0.37);
   backdrop-filter: blur (2px);
-  box-shadow: rgb(22, 22, 27) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -20px, 
+  box-shadow: rgb(22, 22, 27) 0px 40px 80px -30px, rgba(0, 0, 0, 0.3) 0px 30px 60px -20px, 
   rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
 
@@ -302,6 +305,8 @@ a:hover {
   border: 1px solid rgb(255, 255, 255, 0.8);
   background: rgb(255, 255, 255, 0.2);
   backdrop-filter: blur (2px);
+  box-shadow: rgb(22, 22, 27) 0px 40px 80px -30px, rgba(0, 0, 0, 0.3) 0px 30px 60px -20px, 
+  rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
 
 .botao-curriculum {
@@ -311,7 +316,8 @@ a:hover {
   font-size: 1.2em;
   border-radius: 10px;
   background-image: linear-gradient(45deg, rgba(50, 47, 251, 0.883), #0085ff, #53acff);
-  filter: drop-shadow(0 0 15px #252525);
+  box-shadow: rgb(22, 22, 27) 0px 40px 80px -30px, rgba(0, 0, 0, 0.3) 0px 30px 60px -20px, 
+  rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 
 }
 
@@ -329,7 +335,6 @@ a:hover {
 
 .container-tecnologia {
   text-align: center;
-  border-radius: 10px;
   padding: 50px;
   background: linear-gradient( 360deg, rgba(13, 9, 248, 0.822), rgba(255, 255, 255, 2));
 }
@@ -348,6 +353,8 @@ a:hover {
   border: 1px solid rgb(255, 255, 255, 0.8);
   background: rgb(255, 255, 255, 0.2);
   backdrop-filter: blur (2px);
+  box-shadow: rgb(22, 22, 27) 0px 40px 80px -30px, rgba(0, 0, 0, 0.3) 0px 30px 60px -20px, 
+  rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
 
 .container-icon {
@@ -356,7 +363,6 @@ a:hover {
   justify-content: center;
   align-items: flex-start;
   justify-content: space-between;
-  filter: drop-shadow(0 0 5px #252525);
 }
 
 .icon {
@@ -420,21 +426,19 @@ h5 {
 }
 
 .container-portifolio {
-  padding: 50px;
   text-align: center;
   color: #191b1be1;
 }
 
-.container-port {
-  display: flex;
-  margin: 10px;
-  height: 300px;
-}
-
 .descricao-port {
   text-align: justify;
-  padding: 10px;
+  padding-left: 23px;
   margin: 100px 0px -20px 0px;
+}
+
+.container-port {
+  display: flex;
+  height: 300px;
 }
 
 .container-videos {
@@ -527,7 +531,8 @@ footer {
   border: 1px solid rgb(255, 255, 255, 0.8);
   background: rgb(255, 255, 255, 0.2);
   backdrop-filter: blur (2px);
-  filter: drop-shadow(0 0 8px #252525);
+  box-shadow: rgb(22, 22, 27) 0px 40px 80px -30px, rgba(0, 0, 0, 0.3) 0px 30px 60px -20px, 
+  rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
 
 .container-contato, .container-portifolio, .secao-hobbies {
