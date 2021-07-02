@@ -11,8 +11,8 @@
 }
 
 html, body {
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
 }
 
 body {
@@ -24,8 +24,8 @@ p, h1, h2, h4, h5 {
 }
 
 .container-fluid {
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -36,15 +36,15 @@ p, h1, h2, h4, h5 {
 
 #particles-js {
   height: 50%;
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
 }
 
 /************************* Configurações do background - Nav ***********************************/
 
 .navbar {
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
   background: rgba(0, 133, 255, 0.3);
   position: fixed;
   display: flex;
@@ -65,8 +65,8 @@ p, h1, h2, h4, h5 {
 }
 
 .container {
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
 }
 
 .navbar-back {
@@ -84,7 +84,7 @@ p, h1, h2, h4, h5 {
 .container-descricao-img {
   display: flex;
   align-items: flex-end;
-  margin: -350px auto 0px auto;
+  margin: -350px auto 0 auto;
 }
 
 .container-descricao-nav,h5  {
@@ -106,7 +106,7 @@ p, h1, h2, h4, h5 {
   color: #fff;
   font-size: 1.2em;
   padding: 5px;
-  margin: 50px auto 0px auto;
+  margin: 50px auto 0 auto;
 }
 
 a:hover {
@@ -123,7 +123,7 @@ a:hover {
 
 .img-fluid {
   display: flex;
-  margin: 50px auto 0px auto;
+  margin: 50px auto 0 auto;
   width: 80%;
   height: 90vh;
 }
@@ -230,8 +230,8 @@ a:hover {
   align-items: center;
   flex-direction: column;
   border-radius: 10px;
-  margin: 0px;
-  padding: 0px 100px 0px 100px;
+  margin: 0;
+  padding: 0 100px 0 100px;
 }
 
 .secao-pessoal>.paragrafo-hobbie {
@@ -240,7 +240,7 @@ a:hover {
   margin-bottom: 50px;
   padding: 15px;
   color: #191b1be1;
-  box-shadow: rgb(22, 22, 27) 0px 40px 80px -30px, rgba(0, 0, 0, 0.3) 0px 30px 60px -20px, 
+  box-shadow: rgb(49, 49, 71) 0px 40px 80px -30px, rgba(0, 0, 0, 0.3) 0px 30px 60px -20px, 
   rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
 
@@ -417,7 +417,7 @@ a:hover {
 h5 {
   color: #191b1be1;
   text-align: justify;
-  padding-left: 0px;
+  padding-left: 0;
 }
 
 .container-videos:hover {
@@ -433,7 +433,7 @@ h5 {
 .descricao-port {
   text-align: justify;
   padding-left: 23px;
-  margin: 100px 0px -20px 0px;
+  margin: 100px 0 -20px 0;
 }
 
 .container-port {
@@ -485,7 +485,7 @@ footer {
   text-align: center;
   width: 740px;
   height: 450px;
-  margin: 37px auto 0px auto;
+  margin: 37px auto 0 auto;
   border-radius: 5px;
   overflow: hidden;
 }
@@ -545,7 +545,7 @@ footer {
   color: #f0f6f69f;
   border-radius: 10px;
   background-image: linear-gradient(25deg, #282de4, #6371ea, #7db0ee, #88f0f0);
-  box-shadow: 0px 3px 10px rgba(194, 193, 193, 0.25);
+  box-shadow: 0 3px 10px rgba(194, 193, 193, 0.25);
 }
 
 .fa-linkedin {
@@ -553,7 +553,7 @@ footer {
   color: #333af6;
   border-radius: 10px;
   background-image: linear-gradient(25deg, #453de6, #5c7ad7, #56b1c6, #05e8b2);
-  box-shadow: 0px 3px 10px rgba(194, 193, 193, 0.25);
+  box-shadow: 0 3px 10px rgba(194, 193, 193, 0.25);
 }
 
 .exclusivo {
@@ -561,7 +561,7 @@ footer {
   color: #191b1b;
   border-radius: 10px;
   background-image: linear-gradient(45deg, #efeef5, #8d8f94, #2f2f2f, #252525);
-  box-shadow: 0px 3px 10px rgba(194, 193, 193, 0.25);
+  box-shadow: 0 3px 10px rgba(194, 193, 193, 0.25);
 }
 
 .fa-envelope {
@@ -576,7 +576,7 @@ footer {
   vertical-align: middle;
   background: #d6249f;
   background: radial-gradient( circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285aeb 90%);
-  box-shadow: 0px 3px 10px rgba(194, 193, 193, 0.25);
+  box-shadow: 0 3px 10px rgba(194, 193, 193, 0.25);
 }
 
 .fa-instagram:hover:nth-child(1) {

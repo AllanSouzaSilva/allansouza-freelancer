@@ -33,7 +33,7 @@
 <!-- imagens-->
 <h4 align="center">
   <p>Web Single Page - Home</p>
-  <img width="70%" alt="Sitehome" title="Home page" src="https://github.com/AllanSouzaSilva/allan-website/blob/main/video/videoreadme.gif" style="max-width:70%;">
+  <img width="90%" alt="Sitehome" title="Home page" src="https://github.com/AllanSouzaSilva/allansouza-freelancer/blob/main/video/AllanSobre.gif" style="max-width:70%;">
 
 </h4>
 ---
