@@ -37,7 +37,7 @@
 </h4>
 <h4 align="center">
   <p>Web Single Page - Resposivo</p>
-  <img width="90%" alt="MobileHome" title="Home page" src="https://github.com/AllanSouzaSilva/allansouza-freelancer/blob/main/video/MobileHome.gif" style="max-width:70%;">
+  <img width="70%" alt="MobileHome" title="Home page" src="https://github.com/AllanSouzaSilva/allansouza-freelancer/blob/main/video/MobileHome.gif" style="max-width:70%;">
 
 </h4>
 ---
