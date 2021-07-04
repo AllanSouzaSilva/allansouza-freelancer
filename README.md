@@ -10,12 +10,12 @@
 
 <!-- badges -->
 <p align="center">
-  <img src="https://img.shields.io/github/languages/count/AllanSouzaSilva/SystembankUnipim?color=431d7c">
-  <img src="https://img.shields.io/github/repo-size/AllanSouzaSilva/SystembankUnipim?color=F62E76">
+  <img src="https://img.shields.io/github/languages/count/AllanSouzaSilva/allansouza-freelancer?color=431d7c">
+  <img src="https://img.shields.io/github/repo-size/AllanSouzaSilva/allansouza-freelancer?color=F62E76">
   <a href="https://www.linkedin.com/in/AllanSouzaSilva/">
     <img src="https://img.shields.io/badge/made%20by-Allan%20Souza-431d7c">
   </a>
-  <img src="https://img.shields.io/github/last-commit/AllanSouzaSilva/SystembankUnipim?color=F62E76">
+  <img src="https://img.shields.io/github/last-commit/AllanSouzaSilva/allansouza-freelancer?color=F62E76">
 
   [![NPM](https://img.shields.io/npm/l/react)](https://github.com/AllanSouzaSilva/allan-website/blob/main/LICENSE) 
 </p>
@@ -37,7 +37,7 @@
 </h4>
 <h4 align="center">
   <p>Web Single Page - Resposivo</p>
-  <img width="90%" alt="MobileHome" title="Home page" src="https://github.com/AllanSouzaSilva/allansouza-freelancer/blob/main/video/AllanSobre.gif" style="max-width:70%;">
+  <img width="90%" alt="MobileHome" title="Home page" src="https://github.com/AllanSouzaSilva/allansouza-freelancer/blob/main/video/MobileHome.gif" style="max-width:70%;">
 
 </h4>
 ---
