@@ -78,7 +78,6 @@ p, h1, h2, h4, h5 {
   color: #fff;
 }
 
-
 /****************************** Configuração nav *************************************/
 
 .container-descricao-img {
@@ -87,7 +86,7 @@ p, h1, h2, h4, h5 {
   margin: -350px auto 0 auto;
 }
 
-.container-descricao-nav,h5  {
+.container-descricao-nav, h5 {
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -215,9 +214,11 @@ a:hover {
 }
 
 /******************************** Configuração do pessoal ********************************/
-.secao-titulo{
+
+.secao-titulo {
   font-family: 'Prociono';
 }
+
 .secao-profissional {
   text-align: center;
   padding: 100px;
@@ -240,8 +241,7 @@ a:hover {
   margin-bottom: 50px;
   padding: 15px;
   color: #191b1be1;
-  box-shadow: rgb(49, 49, 71) 0px 40px 80px -30px, rgba(0, 0, 0, 0.3) 0px 30px 60px -20px, 
-  rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  box-shadow: rgb(49, 49, 71) 0px 40px 80px -30px, rgba(0, 0, 0, 0.3) 0px 30px 60px -20px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
 
 .container-img-perfil {
@@ -254,8 +254,7 @@ a:hover {
   border: 1px solid #197be8;
   background: rgba(#000000, 0.37);
   backdrop-filter: blur (2px);
-  box-shadow: rgb(22, 22, 27) 0px 40px 80px -30px, rgba(0, 0, 0, 0.3) 0px 30px 60px -20px, 
-  rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  box-shadow: rgb(22, 22, 27) 0px 40px 80px -30px, rgba(0, 0, 0, 0.3) 0px 30px 60px -20px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
 
 .img-perfil {
@@ -305,8 +304,7 @@ a:hover {
   border: 1px solid rgb(255, 255, 255, 0.8);
   background: rgb(255, 255, 255, 0.2);
   backdrop-filter: blur (2px);
-  box-shadow: rgb(22, 22, 27) 0px 40px 80px -30px, rgba(0, 0, 0, 0.3) 0px 30px 60px -20px, 
-  rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  box-shadow: rgb(22, 22, 27) 0px 40px 80px -30px, rgba(0, 0, 0, 0.3) 0px 30px 60px -20px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
 
 .botao-curriculum {
@@ -314,23 +312,19 @@ a:hover {
   margin-top: 20px;
   color: #191b1be1;
   font-size: 1.2em;
-  border-radius: 10px;
+  border-radius: 20px;
   background-image: linear-gradient(45deg, rgba(50, 47, 251, 0.883), #0085ff, #53acff);
   box-shadow: rgb(22, 22, 27) 0px 40px 80px -30px, rgba(0, 0, 0, 0.3) 0px 30px 60px -20px, 
   rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
-
+  transition: all .4s;
 }
 
 .botao-curriculum:hover {
-  text-decoration: none;
-  color: #fff;
+  border-radius: 20px;
+  transform: translateY(-10px);
+  box-shadow: 0 7px 0 -2px #b84afe, 0 15px 0 -4px #39a2db,
+  0 16px 10px -10px #39a2db;
 }
-
-.botao-curriculum:nth-child(2) {
-  color: #d6f5e1;
-  box-shadow: 0 0 30px #4c3aecd3;
-}
-
 /********************** Tecnologias e conhecimentos *********************************/
 
 .container-tecnologia {
@@ -353,8 +347,7 @@ a:hover {
   border: 1px solid rgb(255, 255, 255, 0.8);
   background: rgb(255, 255, 255, 0.2);
   backdrop-filter: blur (2px);
-  box-shadow: rgb(22, 22, 27) 0px 40px 80px -30px, rgba(0, 0, 0, 0.3) 0px 30px 60px -20px, 
-  rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  box-shadow: rgb(22, 22, 27) 0px 40px 80px -30px, rgba(0, 0, 0, 0.3) 0px 30px 60px -20px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
 
 .container-icon {
@@ -531,8 +524,7 @@ footer {
   border: 1px solid rgb(255, 255, 255, 0.8);
   background: rgb(255, 255, 255, 0.2);
   backdrop-filter: blur (2px);
-  box-shadow: rgb(22, 22, 27) 0px 40px 80px -30px, rgba(0, 0, 0, 0.3) 0px 30px 60px -20px, 
-  rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  box-shadow: rgb(22, 22, 27) 0px 40px 80px -30px, rgba(0, 0, 0, 0.3) 0px 30px 60px -20px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
 
 .container-contato, .container-portifolio, .secao-hobbies {

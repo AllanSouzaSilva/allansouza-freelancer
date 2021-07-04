@@ -5,146 +5,145 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- Estilos -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-        crossorigin="anonymous">
-    <link rel="stylesheet" href="style/style.css">
-    <link rel="stylesheet" href="style/responsive.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
-        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-    <script src="js/scrollreveal.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-        crossorigin="anonymous"></script>
-    <!-- Font Awesome -->
-    <script src="https://kit.fontawesome.com/bf7e05c402.js" crossorigin="anonymous"></script>
-    <script src="/js/index.js"></script>
-    <script src="js/scripts.js"></script>
-    <script src="js/Particles.js"></script>
     <title>Allan Souza | Home</title>
     <style type="text/css">
-        .container {
-            border: 2px solid red;
-        }
-
-        :root {
-
-            --d: 700ms;
-            --e: cubic-bezier(0.19, 1, 0.22, 1);
-        }
+    
 
         * {
             box-sizing: border-box;
         }
-        html, body{
+
+        html,
+        body {
             height: 100%;
         }
-        bode{
-            display: grid;
-            place-items: center;
-        }
-        .page-content{
-            display: grid;
-            grid-gap: 1rem;
-            padding: 1rem;
-            margin: 0 auto;
+        .grid {
+	padding: 20px 20px 100px 20px;
+	max-width: 1300px;
+	margin: 0 auto;
+	list-style: none;
+	text-align: center;
+}
 
-        }
-        .card{
-            position: relative;
-            display:flex;
-            align-items: flex-end;
-            overflow: hidden;
-            padding: 1rem;
-            width: 100%;
-            text-align: center;
-            color: whitesmoke;
-            box-shadow: 0 1px 1px rgba(0, 0, 0,1), 0 2px 2px rgba(0,0,0,0.1),
-            0 4px 4px rgba(0, 0, 0, 0.1), 0 8px 8px rgba(0, 0, 0, 0.1), 0 16px 16px rgba(0, 0, 0, 0.1) ;
-        }
-        .card::before{
-            content: "";
-            position:absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 110%;
-            background-size:cover;
-            background-position: 0 0;
-            transition: transform calc(var(--d) *1.5) var(--e);
-            pointer-events: none;
-        }
-        .card::after{
-            content: "";
-            display: block;
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 200%;
-            pointer-events: none;
-            background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,0.009) 11.7%,
-            rgba(0,0,0,0.034) 22.1%,rgba(0,0,0,0.072) 31.2%,rgba(0,0,0,00.123) 39.4%,
-            rgba(0,0,0,0.182) 46.6%,rgba(0,0,0,0.249) 53.1%,rgba(0,0,0,0.32) 58.9%,
-            rgba(0,0,0,0.394) 64.3%,rgba(0,0,0,0.468) 39.3%,rgba(0,0,0,0.54) 74.1%,
-            rgba(0,0,0,0.607)78.8%,rgba(0,0,0,0.668) 83.6%,rgba(0,0,0,0.721) 88.7%,
-            rgba(0,0,0,0.762) 94.1%,rgba(0,0,0,0.79) 100%);
-            transform: translateY(-50%);
-            transition: transformcalc(calc(var(--d)* 2) var(--e));
-        }
+.grid li {
+	display: inline-block;
+	width: 440px;
+	margin: 0;
+	padding: 20px;
+	text-align: left;
+	position: relative;
+}
+        .grid figure {
+	margin: 0;
+	position: relative;
+}
+
+.grid figure img {
+	max-width: 100%;
+	display: block;
+	position: relative;
+}
+.grid figcaption {
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 20px;
+	background: #2c3f52;
+	color: #ed4e6e;
+}
+.grid figcaption h3 {
+	margin: 0;
+	padding: 0;
+	color: #fff;
+}
+
+.grid figcaption span:before {
+	content: 'by ';
+}
+
+.grid figcaption a {
+	text-align: center;
+	padding: 5px 10px;
+	border-radius: 2px;
+	display: inline-block;
+	background: #ed4e6e;
+	color: #fff;
+}
+.cs-style-1 figure img {
+	z-index: 10;
+	transition: transform 0.4s;
+}
+
+.no-touch .cs-style-1 figure:hover img,
+.cs-style-1 figure.cs-hover img {
+	transform: translateY(-90px);
+}
+.cs-style-1 figcaption {
+	height: 90px;
+	width: 100%;
+	top: auto;
+	bottom: 0;
+}
+.cs-style-1 figcaption a {
+	position: absolute;
+	right: 20px;
+	top: 30px;
+}
+.img-figure{
+    width: 300px;
+    height: 300px;
+}
+
+
     </style>
 </head>
 
-<body>
-    <div class="container">AllanSouzaSilva</div>
+<body>  
 
-    <main class="page-content">
-        <div class="card">
-            <div class="contant">
-                <h2 class="title">WebSite 1</h2>
-                <p class="des">aushauahsuashaushaushaushasuahauhsauhsahs</p>
-                <button class="btn">Visit wesite</button>
-            </div>
-        </div>
-        <div class="card">
-            <div class="contant">
-                <h2 class="title">WebSite 2</h2>
-                <p class="des">aushauahsuashaushaushaushasuahauhsauhsahs</p>
-                <button class="btn">Visit wesite</button>
-            </div>
-        </div>
-        <div class="card">
-            <div class="contant">
-                <h2 class="title">WebSite 3</h2>
-                <p class="des">aushauahsuashaushaushaushasuahauhsauhsahs</p>
-                <button class="btn">Visit wesite</button>
-            </div>
-        </div>
-        <div class="card">
-            <div class="contant">
-                <h2 class="title">WebSite 4</h2>
-                <p class="des">aushauahsuashaushaushaushasuahauhsauhsahs</p>
-                <button class="btn">Visit wesite</button>
-            </div>
-        </div>
-        <div class="card">
-            <div class="contant">
-                <h2 class="title">WebSite 5</h2>
-                <p class="des">aushauahsuashaushaushaushasuahauhsauhsahs</p>
-                <button class="btn">Visit wesite</button>
-            </div>
-        </div>
-        <div class="card">
-            <div class="contant">
-                <h2 class="title">WebSite 6</h2>
-                <p class="des">aushauahsuashaushaushaushasuahauhsauhsahs</p>
-                <button class="btn">Visit wesite</button>
-            </div>
-        </div>
-    </main>
+    <ul class="grid cs-style-1">
+        <li>
+            <figure>
+                <img class="img-figure" src="/img/nice-business-desk-black-background.jpg" alt="img01">
+                <figcaption>
+                    <h3>Camera</h3>
+                    <span>Jacob Cummings</span>
+                    <a href="http://dribbble.com/shots/1115632-Camera">Take a look</a>
+                </figcaption>
+            </figure>
+        </li>
+        <li>
+            <figure>
+                <img class="img-figure" src="/img/nice-business-desk-black-background.jpg" alt="img01">
+                <figcaption>
+                    <h3>Camera</h3>
+                    <span>Jacob Cummings</span>
+                    <a href="http://dribbble.com/shots/1115632-Camera">Take a look</a>
+                </figcaption>
+            </figure>
+        </li>
+        <li>
+            <figure>
+                <img class="img-figure" src="/img/nice-business-desk-black-background.jpg" alt="img01">
+                <figcaption>
+                    <h3>Camera</h3>
+                    <span>Jacob Cummings</span>
+                    <a href="http://dribbble.com/shots/1115632-Camera">Take a look</a>
+                </figcaption>
+            </figure>
+        </li>
+        <li>
+            <figure>
+                <img class="img-figure" src="/img/nice-business-desk-black-background.jpg" alt="img01">
+                <figcaption>
+                    <h3>Camera</h3>
+                    <span>Jacob Cummings</span>
+                    <a href="http://dribbble.com/shots/1115632-Camera">Take a look</a>
+                </figcaption>
+            </figure>
+        </li>
+        
+        <!-- ... -->
+    </ul>
 </body>
 
 </html>
