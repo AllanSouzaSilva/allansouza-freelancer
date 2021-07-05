@@ -40,9 +40,8 @@
   <img width="30%" height="30%"alt="MobileHome" title="Home page" src="https://github.com/AllanSouzaSilva/allansouza-freelancer/blob/main/video/MobileHome.gif" style="max-width:40%;">
 
 </h4>
----
 
-## 📄 Sobre 
+# 📄 Sobre 
 
 ### Allan Freelancer
 Projeto criado com o objetivo de chamar atenção de recrutadores e trabalhar como freelancer futuramente, entendendo meu momento e que estou ainda em pleno desenvolvimento diário.
@@ -87,7 +86,7 @@ Estas são as principais ferramentas utilizadas na construção do projeto:
 <img src="https://img.shields.io/badge/CSS-239120?style=for-the-badge&logo=css3&logoColor=white" /> | 
 <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" /> | 
 <img src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white" /> | 
----
+
 
 ## 🚀 Executando o projeto
 
@@ -114,11 +113,13 @@ allansouza-freelancer
 clique duas vezes no arquivo home.html
 
 ```
-# Caso a página não abrir automáticamente acesse:
+# Caso a página não abrir automáticamente acesse: 
+127.0.0.1:5501/index.html
 
 # Caso não tenha a extenção no vscode:
 
---- Vá até o navegador e digite: 127.0.0.1:5501/index.html
+Vá até o navegador e digite: 127.0.0.1:5501/home.html
+ 
 ### 🚀 Milha Extra
 
 Além do que foi pedido foi feito um deploy grátuito sem fins comerciais no netlify, para outros terem acesso ao projeto 
