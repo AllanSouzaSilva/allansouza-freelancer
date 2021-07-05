@@ -98,7 +98,7 @@ Antes de qualquer coisa, você precisa ter o [GIT](https://git-scm.com) e o [Vis
 4. O projeto abrirá no vs code.
 5. Instale a extenção -> Live Server
 6. Vá até o projeto.
-7. No arquivo -> home.html clique com botão direito e clique em open Live Server.
+7. No arquivo -> index.html clique com botão direito e clique em open Live Server.
 
 
 ```bash
@@ -110,7 +110,7 @@ $ git clone -> https://github.com/AllanSouzaSilva/.git
 allansouza-freelancer
 
 # Execute a aplicação em modo de desenvolvimento:
-clique duas vezes no arquivo home.html
+clique duas vezes no arquivo index.html
 
 ```
 # Caso a página não abrir automáticamente acesse: 
@@ -118,7 +118,7 @@ clique duas vezes no arquivo home.html
 
 # Caso não tenha a extenção no vscode:
 
-Vá até o navegador e digite: 127.0.0.1:5501/home.html
+Navegue até o navegador e digite: 127.0.0.1:5501/index.html
  
 ### 🚀 Milha Extra
 
