@@ -128,6 +128,11 @@ Além do que foi pedido foi feito um deploy grátuito sem fins comerciais no net
  [![NPM](https://img.shields.io/npm/l/react)](https://github.com/AllanSouzaSilva/allan-website/blob/main/LICENSE)
 
 ## 🚀 Entre em contato!
+
+[![social](https://img.shields.io/badge/Linkedin--blue?style=for-the-badge&logo=linkedin&logoColor=blue)](https://www.linkedin.com/in/allan-souza-silva-794164146/)
+<img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" />
+[![social](https://img.shields.io/badge/Site--red?style=for-the-badge)](https://allansouza-freelancer.netlify.app/)
+
 ---
-Desenvolvido por [Allan Souza](https://www.linkedin.com/in/allan-souza-silva-794164146/).
+Criado por [Allan Souza](https://www.linkedin.com/in/allan-souza-silva-794164146/).
 
