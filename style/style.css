@@ -314,17 +314,16 @@ a:hover {
   font-size: 1.2em;
   border-radius: 20px;
   background-image: linear-gradient(45deg, rgba(50, 47, 251, 0.883), #0085ff, #53acff);
-  box-shadow: rgb(22, 22, 27) 0px 40px 80px -30px, rgba(0, 0, 0, 0.3) 0px 30px 60px -20px, 
-  rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  box-shadow: rgb(22, 22, 27) 0px 40px 80px -30px, rgba(0, 0, 0, 0.3) 0px 30px 60px -20px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
   transition: all .4s;
 }
 
 .botao-curriculum:hover {
   border-radius: 20px;
   transform: translateY(-10px);
-  box-shadow: 0 7px 0 -2px #b84afe, 0 15px 0 -4px #39a2db,
-  0 16px 10px -10px #39a2db;
+  box-shadow: 0 7px 0 -2px #b84afe, 0 15px 0 -4px #39a2db, 0 16px 10px -10px #39a2db;
 }
+
 /********************** Tecnologias e conhecimentos *********************************/
 
 .container-tecnologia {
@@ -399,7 +398,7 @@ a:hover {
   color: rgb(250, 90, 42);
 }
 
-.fa-github {
+.container-icon > .fa-github {
   color: #252525;
   border-radius: 10px;
   padding: 5px;
@@ -451,6 +450,208 @@ h5 {
   filter: drop-shadow(0 0 8px #252525);
 }
 
+/********************** EFEITO DO HOVER NO PORTFÓLIO **********************/
+
+.grid figure {
+  cursor: pointer;
+  overflow: hidden;
+}
+
+
+
+.grid figure figcaption, .grid figure figcaption> a {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.grid figure p {
+  margin-top: 0px;
+}
+
+.grid figure h3 {
+  margin:10px;
+}
+
+.grid figure p {
+  letter-spacing: 2px;
+  padding: 0px 10px 0px 10px;
+  font-size: 100%;
+}
+
+/*---------------*/
+
+/***** EfeitoZoe *****/
+
+/*---------------*/
+
+figure.effect-zoe figcaption {
+  top: auto;
+  bottom: 0;
+  height: 16em;
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  -webkit-transition: -webkit-transform 0.35s;
+  transition: transform 0.35s;
+  -webkit-transform: translate3d(0, 100%, 0);
+  transform: translate3d(0, 100%, 0);
+}
+
+figure.effect-zoe p.description {
+  position: absolute;
+  bottom: 7em;
+  color: #fff;
+  text-transform: none;
+   opacity: 0;
+  -webkit-transition: opacity 0.35s;
+  transition: opacity 0.35s;
+  -webkit-backface-visibility: hidden;
+  /* Fix for Chrome 37.0.2062.120 (Mac) */
+}
+
+figure.effect-zoe h3, figure.effect-zoe p.icon-links a {
+  -webkit-transition: -webkit-transform 0.35s;
+  transition: transform 0.35s;
+  -webkit-transform: translate3d(0, 200%, 0);
+  transform: translate3d(0, 200%, 0);
+}
+
+figure.effect-zoe p.icon-links a:before {
+  display: inline-block;
+  speak: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+figure.effect-zoe h3 {
+  display: inline-block;
+}
+
+figure.effect-zoe:hover p.description {
+  opacity: 1;
+}
+
+figure.effect-zoe:hover figcaption, figure.effect-zoe:hover h3, figure.effect-zoe:hover p.icon-links a {
+   -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+
+figure.effect-zoe:hover h3 {
+  -webkit-transition-delay: 0.05s;
+  transition-delay: 0.05s;
+}
+
+figure.effect-zoe:hover p.icon-links a:nth-child(3) {
+  -webkit-transition-delay: 0.1s;
+  transition-delay: 0.1s;
+}
+
+figure.effect-zoe:hover p.icon-links a:nth-child(2) {
+  -webkit-transition-delay: 0.15s;
+  transition-delay: 0.15s;
+}
+
+figure.effect-zoe:hover p.icon-links a:first-child {
+  -webkit-transition-delay: 0.2s;
+  transition-delay: 0.2s;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  
+}
+.potifolio-btn{
+  display: flex;
+  flex-direction: row;
+}
+.wrapper .icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0px;
+  padding:  0px;
+  text-align: center;
+  cursor: pointer;
+  position: relative;
+  z-index: 2;
+  transition: 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper .icon a {
+  text-align: center;
+  display: block;
+  height: 50px;
+  width: 50px; 
+  background-image: linear-gradient(45deg, rgba(50, 47, 251, 0.883), #0269cada, #3c78b1);
+  box-shadow: rgb(22, 22, 27) 0px 40px 80px -30px, rgba(0, 0, 0, 0.3) 0px 30px 60px -20px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  transition: all .4s;
+  border-radius: 50%;
+  position: relative;
+  z-index: 2;
+  transition: 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  color: #fff;
+}
+
+
+.wrapper .icon .tooltip {
+  position: absolute;
+  top: 0;
+  z-index: 1;
+  color: #fff;
+  padding: 7px 15px;
+  font-size: 20px;
+  font-weight: 500;
+  border-radius: 25px;
+  opacity: 0;
+  pointer-events: none;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  transition: 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  
+}
+
+.wrapper .icon:hover .tooltip {
+  top: -30px;
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.icon .tooltip:before {
+  position: absolute;
+  content: "";
+  height: 15px;
+  width: 15px;
+  background: #333;
+  left: 50%;
+  bottom: -6px;
+  transform: translateX(-50%) rotate(45deg);
+  transition: 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.btn-tamanho:hover {
+  color: #fff;
+}
+
+.wrapper .website:hover a,
+.wrapper .website:hover .tooltip,
+.wrapper .website:hover .tooltip:before{
+  background: #3b5999;
+}
+.wrapper .github:hover a,
+.wrapper .github:hover .tooltip,
+.wrapper.github:hover .tooltip:before{
+  background: #333;
+}
+
+.btn-tamanho{
+  font-size: 2em;
+    margin-top:8px;
+}
 /********************** Configuração Rodapé **********************/
 
 footer {
