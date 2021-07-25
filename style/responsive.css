@@ -137,7 +137,35 @@
     .container-videos {
         flex-direction: column-reverse;
     }
-    /************************  PORTIFÓLIO ************************/
+    /************************ EFFECT ZOE ************************/
+    .grid figure p {
+       display: none;
+      }
+      
+      .grid figure h3 {
+        margin-top:25px;
+      }
+      
+      .grid figure p {
+        letter-spacing: 1px;
+        padding: 0px 5px 0px 5px;
+        font-size: 60%;
+      }
+figure.effect-zoe figcaption {
+    top: auto;
+    bottom: 0;
+    height: 12em;
+    color: #fff;
+    
+  }
+  
+  figure.effect-zoe p.description {
+    bottom: 3em;
+    color: #fff;
+  }
+   
+  
+    /************************  RODAPÉ ************************/
     .container-rodape {
         width: 320px;
         height: 290px;

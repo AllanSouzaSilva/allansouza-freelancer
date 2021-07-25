@@ -24,6 +24,7 @@ p, h1, h2, h4, h5 {
 }
 
 .container-fluid {
+  border: 2px solid red;
   margin: 0;
   padding: 0;
   display: flex;
@@ -679,7 +680,7 @@ footer {
   text-align: center;
   width: 740px;
   height: 450px;
-  margin: 37px auto 0 auto;
+  margin: 31px auto 0 auto;
   border-radius: 5px;
   overflow: hidden;
 }
