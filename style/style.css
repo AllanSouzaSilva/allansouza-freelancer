@@ -221,24 +221,21 @@ a:hover {
 
 .secao-profissional {
   text-align: center;
-  padding: 100px;
-  background: linear-gradient(360deg, rgba(47, 152, 251, 0.835), rgba(255, 255, 255, 2));
+  padding: 70px;
+  background: linear-gradient(360deg, #b84afe,rgba(47, 152, 251, 0.835), rgba(255, 255, 255, 2));
 }
 
 .secao-pessoal {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  border-radius: 10px;
-  margin: 0;
-  padding: 0 100px 0 100px;
+  justify-content:center;
+  border-radius: 10px;  
+  margin: 70px;
 }
 
 .secao-pessoal>.paragrafo-hobbie {
+  width: 70%;
+  border-radius:10px ;
   text-align: justify;
-  margin-left: 7;
-  margin-bottom: 50px;
   padding: 15px;
   color: #191b1be1;
   box-shadow: rgb(49, 49, 71) 0px 40px 80px -30px, rgba(0, 0, 0, 0.3) 0px 30px 60px -20px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
@@ -246,12 +243,12 @@ a:hover {
 
 .container-img-perfil {
   display: flex;
-  justify-content: center;
-  width: 50vh;
-  margin-bottom: 50px;
+  width: 40%;
+  height: 100%;
+  margin: 5px 90px 0px 0px;
+  justify-content: center;  
   padding: 5px;
   border-radius: 10px;
-  border: 1px solid #197be8;
   background: rgba(#000000, 0.37);
   backdrop-filter: blur (2px);
   box-shadow: rgb(22, 22, 27) 0px 40px 80px -30px, rgba(0, 0, 0, 0.3) 0px 30px 60px -20px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
@@ -260,12 +257,22 @@ a:hover {
 .img-perfil {
   image-rendering: initial;
   border-radius: 15px;
-  height: 100%;
-  width: 100%;
+  height: 50%;
+  width: 70%;
   object-fit: contain;
   filter: drop-shadow(0 0 15px #252525);
 }
 
+.botao-curriculum {
+  padding: 10px 50px 10px 50px;
+  margin-top: 20px;
+  color: #191b1be1;
+  font-size: 1.2em;
+  border-radius: 20px;
+  background-image: linear-gradient(45deg, rgba(50, 47, 251, 0.883), #0085ff, #53acff);
+  box-shadow: rgb(22, 22, 27) 0px 40px 80px -30px, rgba(0, 0, 0, 0.3) 0px 30px 60px -20px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  transition: all .4s;
+}
 /****************************** Configuração secao hobbies *************************/
 
 .secao-hobbies {
@@ -307,16 +314,6 @@ a:hover {
   box-shadow: rgb(22, 22, 27) 0px 40px 80px -30px, rgba(0, 0, 0, 0.3) 0px 30px 60px -20px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
 
-.botao-curriculum {
-  padding: 10px 50px 10px 50px;
-  margin-top: 20px;
-  color: #191b1be1;
-  font-size: 1.2em;
-  border-radius: 20px;
-  background-image: linear-gradient(45deg, rgba(50, 47, 251, 0.883), #0085ff, #53acff);
-  box-shadow: rgb(22, 22, 27) 0px 40px 80px -30px, rgba(0, 0, 0, 0.3) 0px 30px 60px -20px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
-  transition: all .4s;
-}
 
 .botao-curriculum:hover {
   border-radius: 20px;
@@ -329,7 +326,7 @@ a:hover {
 .container-tecnologia {
   text-align: center;
   padding: 50px;
-  background: linear-gradient( 360deg, rgba(13, 9, 248, 0.822), rgba(255, 255, 255, 2));
+  background: linear-gradient( 360deg, #b84afe,rgba(47, 152, 251, 0.835), rgba(255, 255, 255, 2));
 }
 
 .container-descricao {
@@ -425,7 +422,7 @@ h5 {
 .descricao-port {
   text-align: justify;
   padding-left: 23px;
-  margin: 100px 0 -20px 0;
+  margin: 70px 0 -20px 0;
 }
 
 .container-port {
@@ -687,6 +684,8 @@ footer {
 .contato1, .contato2, .contato3 {
   color: #191b1b;
   text-decoration: none;
+  padding: 10px;
+  font-weight: bolder;
 }
 
 .contato1, .contato2, .contato3 {
@@ -757,7 +756,7 @@ footer {
   box-shadow: 0 3px 10px rgba(194, 193, 193, 0.25);
 }
 
-.fa-envelope {
+.fa-envelope, .cor-black {
   color: #191b1b;
 }
 
