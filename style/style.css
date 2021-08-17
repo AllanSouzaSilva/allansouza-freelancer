@@ -54,7 +54,7 @@ p, h1, h2, h4, h5 {
 }
 
 .logo {
-  letter-spacing: 3px;
+  letter-spacing: 4px;
 }
 
 .nav-back {
@@ -94,7 +94,7 @@ p, h1, h2, h4, h5 {
   color: #191b1be1;
   margin: auto;
   padding: 20px;
-  font-size: 1.3em;
+  font-size: 1.2em;
 }
 
 .botao-whats {
@@ -103,7 +103,7 @@ p, h1, h2, h4, h5 {
   width: 400px;
   background-image: linear-gradient(45deg, rgb(11, 170, 32), #4ae491, #49aa75);
   color: #fff;
-  font-size: 1.2em;
+  font-size: 1.4rem;
   padding: 5px;
   margin: 50px auto 0 auto;
 }
@@ -217,11 +217,12 @@ a:hover {
 
 .secao-titulo {
   font-family: 'Prociono';
+  font-size: 3rem;
+  margin-top: 20px;
 }
 
 .secao-profissional {
   text-align: center;
-  padding: 70px;
   background: linear-gradient(360deg, #b84afe,rgba(47, 152, 251, 0.835), rgba(255, 255, 255, 2));
 }
 
@@ -232,42 +233,48 @@ a:hover {
   margin: 70px;
 }
 
-.secao-pessoal>.paragrafo-hobbie {
-  width: 70%;
+.paragrafo-profissional {
+  display: flex;
+  flex-direction: column;
+  justify-content:flex-start;
+  align-items: center;
+  width: 50%;
   border-radius:10px ;
   text-align: justify;
   padding: 15px;
   color: #191b1be1;
   box-shadow: rgb(49, 49, 71) 0px 40px 80px -30px, rgba(0, 0, 0, 0.3) 0px 30px 60px -20px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
-
+.bio{
+  margin: 10px;
+}
 .container-img-perfil {
   display: flex;
-  width: 40%;
-  height: 100%;
-  margin: 5px 90px 0px 0px;
-  justify-content: center;  
+  flex-direction: column;
+  text-align:justify;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 50%;
+  margin-right: 20px;
   padding: 5px;
   border-radius: 10px;
-  background: rgba(#000000, 0.37);
-  backdrop-filter: blur (2px);
-  box-shadow: rgb(22, 22, 27) 0px 40px 80px -30px, rgba(0, 0, 0, 0.3) 0px 30px 60px -20px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+ 
 }
 
 .img-perfil {
   image-rendering: initial;
-  border-radius: 15px;
+  border-radius: 50%;
   height: 50%;
-  width: 70%;
+  width: 50%;
+  image-rendering: initial;
   object-fit: contain;
   filter: drop-shadow(0 0 15px #252525);
 }
 
 .botao-curriculum {
-  padding: 10px 50px 10px 50px;
-  margin-top: 20px;
+  padding: 10px 20px 10px; 
   color: #191b1be1;
-  font-size: 1.2em;
   border-radius: 20px;
   background-image: linear-gradient(45deg, rgba(50, 47, 251, 0.883), #0085ff, #53acff);
   box-shadow: rgb(22, 22, 27) 0px 40px 80px -30px, rgba(0, 0, 0, 0.3) 0px 30px 60px -20px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
@@ -276,7 +283,7 @@ a:hover {
 /****************************** Configuração secao hobbies *************************/
 
 .secao-hobbies {
-  padding: 100px;
+  padding: 70px;
   text-align: center;
   color: #191b1be1;
   width: 100%;
@@ -293,19 +300,20 @@ a:hover {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 200px;
-  height: 100px;
+  width: 50%;
+  height: 100%;
   margin: 10px;
 }
 
 .secao-icon {
   padding: 10px;
-  font-size: 3em;
+  font-size: 2.5rem;
+  text-align: left;
 }
 
-.secao-hobbies-descricao>.paragrafo-hobbie {
+.paragrafo-hobbie {
   margin-left: 50px;
-  padding: 40px;
+  padding: 15px;
   text-align: justify;
   border-radius: 10px;
   border: 1px solid rgb(255, 255, 255, 0.8);
@@ -329,13 +337,13 @@ a:hover {
   background: linear-gradient( 360deg, #b84afe,rgba(47, 152, 251, 0.835), rgba(255, 255, 255, 2));
 }
 
-.container-descricao {
+.descricao-tecnologia {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.container-paragrafo {
+.paragrafo-tecnologia {
   margin-right: 50px;
   padding: 50px;
   text-align: justify;
@@ -352,6 +360,7 @@ a:hover {
   justify-content: center;
   align-items: flex-start;
   justify-content: space-between;
+  
 }
 
 .icon {
@@ -366,7 +375,7 @@ a:hover {
 }
 
 .icon-tec {
-  font-size: 4.5em;
+  font-size: 3rem;
 }
 
 .img-tec {
@@ -475,7 +484,7 @@ h5 {
 .grid figure p {
   letter-spacing: 2px;
   padding: 0px 10px 0px 10px;
-  font-size: 100%;
+  font-size: 1rem;
 }
 
 /*---------------*/
@@ -602,7 +611,7 @@ figure.effect-zoe:hover p.icon-links a:first-child {
   z-index: 1;
   color: #fff;
   padding: 7px 15px;
-  font-size: 20px;
+  font-size: 1rem;
   font-weight: 500;
   border-radius: 25px;
   opacity: 0;
@@ -646,7 +655,7 @@ figure.effect-zoe:hover p.icon-links a:first-child {
 }
 
 .btn-tamanho{
-  font-size: 2em;
+  font-size: 2rem;
     margin-top:8px;
 }
 /********************** Configuração Rodapé **********************/
@@ -761,7 +770,7 @@ footer {
 }
 
 .fa-instagram {
-  padding: 5px;
+  padding: 3px;
   display: inline-block;
   border-radius: 10px;
   color: #fff;
