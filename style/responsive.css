@@ -1,223 +1,229 @@
-@media only screen and (max-width:600px) {
-    /************************  NAV ************************/
-    .navbar {
-        background: rgba(0, 133, 255, 0.5);
-        width: 100%;
-    }
-    .container-fluid {
-        /* NÃO APAGAR*/
-        overflow-x: hidden;
-    }
-    .container-descricao-img {
-        flex-direction: column-reverse;
-        width: 90%;
-    }
-    .container-descricao-nav {
-        display: flex;
-        margin: 0;
-        padding: 0;
-        width: 100%;
-           }
-    .botao-whats {
-        margin: 0 auto 0 auto;
-        width: 50%;
-    }
-    .bio{
-        width: 100%;
-        text-align: left;
-    }
-    .img-fluid {
-        width: 90%;
-        height: 65vh;
-        margin-top: -10px;
-    }
-    /************************  CONTAINER PESSOAL ************************/
-    
-    .secao-profissional{
-        justify-content: center;
-        align-items: center;
-        padding: 20px;
-    }
-    .secao-pessoal{
-        width: 100%;
-        margin: 0px;
-        flex-direction: column;
-    }
-    .container-img-perfil {
-        height: 100%;
-        width: 100%;
-        object-fit: contain;
-        image-rendering: initial;
-        border-radius: 15px;
-
-    }
-    .paragrafo-profissional{
-        border: 1px solid rgb(255, 255, 255, 0.8);
-        width: 100%;
-        height: 50%;  
-        backdrop-filter: blur (2px);
-    }
-    .botao-curriculum {
-        padding: 5px; 
-      }
-    /************************  HOBBIES  ************************/
-    .secao-titulo{
-        text-align: center;
-        font-size: 32px;
-        width: 100%;
-    }
-    .secao-hobbies {
-        flex-direction: column;
-        padding: 0;
-        margin-left: 0;
-        width: 100%;
-        overflow: hidden;
-    }
-    .secao-hobbies-descricao {
-        flex-direction: column;
-        padding: 0;
-        margin: 0;
-    }
-    .paragrafo-hobbie {
-        margin: 10px 10px 50px 10px;
-        padding: 10px;
-        text-align: justify;
-        border-radius: 10px;
-        border: 1px solid rgb(255, 255, 255, 0.8);
-        background: rgb(255, 255, 255, 0.2);
-        backdrop-filter: blur (2px);
-        filter: drop-shadow(0 0 8px #252525);
-    }
-    .icon-hobbie {
-        display: flex;
-        justify-content: center;
-        width: 100%;
-    }
-    /************************  TECNOLOGIAS ************************/
-    .container-tecnologia {
-        margin: 0;
-        padding: 0;
-        overflow: hidden;
-    }
-    .paragrafo-tecnologia {
-        padding: 10px;
-        margin: 0 10px 60px 10px;
-        border-radius: 10px;
-    }
-    .descricao-tecnologia {
-        flex-direction: column;
-    }
-    .container-icon {
-        flex-direction:row;
-        justify-content: center;
-        align-items: center;
-        width: 100%;
-        margin-bottom: 15px;
-        padding: 0;
-      }
-    .container-icon>.icon {
-        width: 50%;
-        height: 50%;
-        margin: 0;
-        padding: 0;
-    }
-    .img-tec {
-        padding: 0;
-        margin: 0;
-        width: 50px;
-        height: 50px;
-        object-fit: cover;
-    }
-    /************************  PORTIFÓLIO ************************/
-   
-    .container-portifolio {
-        padding: 0;
-        margin: 0;
-    }
-    .container-port {
-        flex-direction: column;
-        margin: 0;
-        padding: 0;
-    }
-    .videos-port {
-        margin: 0;
-        width: 100%;
-        height: 100%;
-    }
-    .container-port {
-        width: 100%;
-        height: 100%;
-    }
-    .container-videos {
-        flex-direction: column-reverse;
-    }
-    /************************ EFFECT ZOE ************************/
-    .grid figure p {
-       display: none;
-      }
-      
-      .grid figure h3 {
-        margin-top:25px;
-      }
-      
-      .grid figure p {
-        letter-spacing: 1px;
-        padding: 0px 5px 0px 5px;
-      }
-figure.effect-zoe figcaption {
-    top: auto;
-    bottom: 0;
-    height: 12em;
-    color: #fff;
-    
-  }
-  
-  figure.effect-zoe p.description {
-    bottom: 3em;
-    color: #fff;
-  }
-   
-  
-    /************************  RODAPÉ ************************/
-    .container-rodape {
-                width: 100%;
-        height: 240px;
-    }
-    .container-contato {
-        width: 235px;
-        height: 140px;
-        margin: 10px 5px 0 42px;
-        align-items: center;
-        justify-content: center;
-        overflow: hidden;
-    }
-    .container-redesociais {
-        margin: auto;
-        padding: 10px;
-        width: 100%;
-        height: 50px;
-    }
-    .todos-direitos {
-        padding: 10px;
-        width: 80%;
-        margin-top: -40px;
-      }
-      .rest-tam{
-        margin-bottom: 10px;
-        padding: 0;
-      }
-    .contato1, .contato2, .contato3 {
-        display: none;
-    }
-    .container-redesociais{
-        border: none;
-        background: none;
-        align-items: center;
-    }
-    .fa-instagram {
-        margin-top: -11%;
-    }
-    .container-redesociais>p {
-        display: none;
-    }
+@media (max-width: 575px) {
+   /************************  NAV ************************/
+   .navbar {
+    background: rgba(0, 133, 255, 0.5);
+    width: 100%;
 }
+.container-fluid {
+    /* NÃO APAGAR*/
+    overflow-x: hidden;
+}
+.container-descricao-img {
+    flex-direction: column-reverse;
+    width: 90%;
+}
+.container-descricao-nav {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+       }
+.botao-whats {
+    margin: 0 auto 0 auto;
+    width: 50%;
+}
+.bio{
+    width: 100%;
+    text-align: left;
+}
+.img-fluid {
+    width: 90%;
+    height: 65vh;
+    margin-top: -10px;
+}
+/************************  CONTAINER PESSOAL ************************/
+
+.secao-profissional{
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.secao-pessoal{
+    width: 100%;
+    margin: 0px;
+    flex-direction: column;
+}
+.container-img-perfil {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    image-rendering: initial;
+    border-radius: 15px;
+
+}
+.paragrafo-profissional{
+    border: 1px solid rgb(255, 255, 255, 0.8);
+    width: 100%;
+    height: 50%;  
+    backdrop-filter: blur (2px);
+}
+.botao-curriculum {
+    padding: 5px; 
+  }
+/************************  HOBBIES  ************************/
+.secao-titulo{
+    text-align: center;
+    font-size: 32px;
+    width: 100%;
+}
+.secao-hobbies {
+    flex-direction: column;
+    padding: 0;
+    margin-left: 0;
+    width: 100%;
+    overflow: hidden;
+}
+.secao-hobbies-descricao {
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+}
+.paragrafo-hobbie {
+    margin: 10px 10px 50px 10px;
+    padding: 10px;
+    text-align: justify;
+    border-radius: 10px;
+    border: 1px solid rgb(255, 255, 255, 0.8);
+    background: rgb(255, 255, 255, 0.2);
+    backdrop-filter: blur (2px);
+    filter: drop-shadow(0 0 8px #252525);
+}
+.icon-hobbie {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+/************************  TECNOLOGIAS ************************/
+.container-tecnologia {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.paragrafo-tecnologia {
+    padding: 10px;
+    margin: 0 10px 60px 10px;
+    border-radius: 10px;
+}
+.descricao-tecnologia {
+    flex-direction: column;
+}
+.container-icon {
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 0;
+  }
+.container-icon>.icon {
+    width: 50%;
+    height: 50%;
+    margin: 0;
+    padding: 0;
+}
+.img-tec {
+    padding: 0;
+    margin: 0;
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+/************************  PORTIFÓLIO ************************/
+
+.container-portifolio {
+    padding: 0;
+    margin: 0;
+}
+.container-port {
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+.videos-port {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+.container-port {
+    width: 100%;
+    height: 100%;
+}
+.container-videos {
+    flex-direction: column-reverse;
+}
+/************************ EFFECT ZOE ************************/
+.grid figure p {
+   display: none;
+  }
+  
+  .grid figure h3 {
+    margin-top:25px;
+  }
+  
+  .grid figure p {
+    letter-spacing: 1px;
+    padding: 0px 5px 0px 5px;
+  }
+figure.effect-zoe figcaption {
+top: auto;
+bottom: 0;
+height: 12em;
+color: #fff;
+
+}
+
+figure.effect-zoe p.description {
+bottom: 3em;
+color: #fff;
+}
+
+
+/************************  RODAPÉ ************************/
+.container-rodape {
+    width: 100%;
+    height: 240px;
+}
+.container-contato {
+    width: 74%;
+    height: 60%;
+    margin: 10px 5px 0 42px;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.container-redesociais {
+    margin: auto;
+    padding: 10px;
+    width: 100%;
+    height: 50px;
+}
+.todos-direitos {
+    padding: 10px;
+    width: 80%;
+    margin-top: -40px;
+  }
+  .rest-tam{
+    margin-bottom: 10px;
+    padding: 0;
+  }
+.contato1, .contato2, .contato3 {
+    display: none;
+}
+.container-redesociais{
+    border: none;
+    background: none;
+    backdrop-filter: none;
+    box-shadow:none;
+    align-items: center;
+}
+.fa-instagram {
+    margin-top: -15%;
+}
+.container-redesociais>p {
+    display: none;
+}
+}
+
+
+
+ 

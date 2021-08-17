@@ -710,7 +710,7 @@ footer {
   display: flex;
   justify-content: center;
   justify-content: space-between;
-  margin-top: 50px;
+  align-items: center;
   font-size: 2.5em;
 }
 
@@ -727,7 +727,7 @@ footer {
 
 .container-videos, .contato1, .contato2, .contato3, .container-redesociais {
   width: auto;
-  margin: 20px;
+  margin: 10px;
   padding: 5px;
   border-radius: 10px;
   border: 1px solid rgb(255, 255, 255, 0.8);
