@@ -45,19 +45,38 @@ p, h1, h2, h4, h5 {
 .navbar {
   margin: 0;
   padding: 0;
-  background: rgba(0, 133, 255, 0.3);
   position: fixed;
   display: flex;
   justify-content: space-between;
   width: 100%;
   z-index: 1;
 }
+.sticky {
+  position: fixed;
+  background: rgba( 255, 255, 255, 0.25);
+  box-shadow: 0 4px 10px 0 #00D8FF;
+  backdrop-filter: blur( 2.5px);
+  border: 1px solid rgba( 255, 255, 255, 0.18);
+  -webkit-backdrop-filter: blur( 2.5px);
+  -webkit-transition: all 0.3s ease-out 0s;
+  -moz-transition: all 0.3s ease-out 0s;
+  -ms-transition: all 0.3s ease-out 0s;
+  -o-transition: all 0.3s ease-out 0s;
+  transition: 1.0s;
+  transition: all 0.5s ease-out 0s;
+  z-index: 99;
+}
 
 .logo {
   font-family: 'Prociono';
   letter-spacing: 4px;
   font-size: 32px;
-  filter: drop-shadow(0 0 15px #fff);
+  text-decoration: none !important;
+  background-image: linear-gradient(45deg, rgba(50, 47, 251, 0.883), #0085ff, #53acff, #b84afe);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+
 }
 
 .nav-back {
@@ -80,16 +99,17 @@ p, h1, h2, h4, h5 {
 .h5-nav {
   color: #fff;
 }
- .typing h4 {
-   text-align: left;
-   color: #fff;
+
+.typing h4 {
+  text-align: left;
+  color: #fff;
   overflow: hidden;
   border-right: .15em solid #00D8FF;
   white-space: nowrap;
   margin: 0 auto;
   letter-spacing: .15em;
   font-weight: bold;
-  animation: typing 3.5s steps(30, end), blink-animation .5s step-end infinite;
+  animation: typing 3.0s steps(30, end), blink-animation .8s step-end infinite;
 }
 
 @keyframes typing {
@@ -621,18 +641,18 @@ figure.effect-zoe:hover p.icon-links a:first-child {
 }
 
 .wrapper .icon a {
-  text-align: center;
+  position: relative;
   display: block;
-  height: 50px;
   width: 50px;
+  height: 50px;
+  text-align: center;
+  border-radius: 50%;
+  color: #fff;
   background-image: linear-gradient(45deg, rgba(50, 47, 251, 0.883), #0269cada, #3c78b1);
   box-shadow: rgb(22, 22, 27) 0px 40px 80px -30px, rgba(0, 0, 0, 0.3) 0px 30px 60px -20px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
   transition: all .4s;
-  border-radius: 50%;
-  position: relative;
-  z-index: 2;
   transition: 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-  color: #fff;
+  z-index: 2;
 }
 
 .wrapper .icon .tooltip {
